@@ -734,6 +734,12 @@ id icon
 id icon_group
 id ifRoom
 id image
+id image1
+id image2
+id image3
+id image4
+id image5
+id image6
 id info
 id invisible
 id italic
@@ -848,6 +854,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_food
 layout activity_fullscreen
+layout activity_profile
 layout activity_user
 layout notification_action
 layout notification_action_tombstone

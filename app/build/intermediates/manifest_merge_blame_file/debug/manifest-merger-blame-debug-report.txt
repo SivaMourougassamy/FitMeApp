@@ -12,11 +12,11 @@
 10-->C:\fit\app\src\main\AndroidManifest.xml
 11
 12    <dist:module dist:instant="true" />
-12-->C:\fit\app\src\main\AndroidManifest.xml:27:5-40
-12-->C:\fit\app\src\main\AndroidManifest.xml:27:18-37
+12-->C:\fit\app\src\main\AndroidManifest.xml:28:5-40
+12-->C:\fit\app\src\main\AndroidManifest.xml:28:18-37
 13
 14    <application
-14-->C:\fit\app\src\main\AndroidManifest.xml:6:5-25:19
+14-->C:\fit\app\src\main\AndroidManifest.xml:6:5-26:19
 15        android:allowBackup="true"
 15-->C:\fit\app\src\main\AndroidManifest.xml:7:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -33,30 +33,33 @@
 22        android:testOnly="true"
 23        android:theme="@style/AppTheme" >
 23-->C:\fit\app\src\main\AndroidManifest.xml:12:9-40
-24        <activity android:name="com.example.fitmeapp.foodActivity" />
-24-->C:\fit\app\src\main\AndroidManifest.xml:13:9-59
-24-->C:\fit\app\src\main\AndroidManifest.xml:13:19-47
-25        <activity
-25-->C:\fit\app\src\main\AndroidManifest.xml:14:9-24:20
-26            android:name="com.example.fitmeapp.FullscreenActivity"
-26-->C:\fit\app\src\main\AndroidManifest.xml:15:13-47
-27            android:configChanges="orientation|keyboardHidden|screenSize"
-27-->C:\fit\app\src\main\AndroidManifest.xml:16:13-74
-28            android:label="@string/app_name"
-28-->C:\fit\app\src\main\AndroidManifest.xml:17:13-45
-29            android:theme="@style/FullscreenTheme" >
-29-->C:\fit\app\src\main\AndroidManifest.xml:18:13-51
-30            <intent-filter>
-30-->C:\fit\app\src\main\AndroidManifest.xml:19:13-23:29
-31                <action android:name="android.intent.action.MAIN" />
-31-->C:\fit\app\src\main\AndroidManifest.xml:20:17-69
-31-->C:\fit\app\src\main\AndroidManifest.xml:20:25-66
-32
-33                <category android:name="android.intent.category.LAUNCHER" />
-33-->C:\fit\app\src\main\AndroidManifest.xml:22:17-77
-33-->C:\fit\app\src\main\AndroidManifest.xml:22:27-74
-34            </intent-filter>
-35        </activity>
-36    </application>
-37
-38</manifest>
+24        <activity android:name="com.example.fitmeapp.ProfileActivity" />
+24-->C:\fit\app\src\main\AndroidManifest.xml:13:9-62
+24-->C:\fit\app\src\main\AndroidManifest.xml:13:19-50
+25        <activity android:name="com.example.fitmeapp.foodActivity" />
+25-->C:\fit\app\src\main\AndroidManifest.xml:14:9-50
+25-->C:\fit\app\src\main\AndroidManifest.xml:14:19-47
+26        <activity
+26-->C:\fit\app\src\main\AndroidManifest.xml:15:9-25:20
+27            android:name="com.example.fitmeapp.FullscreenActivity"
+27-->C:\fit\app\src\main\AndroidManifest.xml:16:13-47
+28            android:configChanges="orientation|keyboardHidden|screenSize"
+28-->C:\fit\app\src\main\AndroidManifest.xml:17:13-74
+29            android:label="@string/app_name"
+29-->C:\fit\app\src\main\AndroidManifest.xml:18:13-45
+30            android:theme="@style/FullscreenTheme" >
+30-->C:\fit\app\src\main\AndroidManifest.xml:19:13-51
+31            <intent-filter>
+31-->C:\fit\app\src\main\AndroidManifest.xml:20:13-24:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\fit\app\src\main\AndroidManifest.xml:21:17-69
+32-->C:\fit\app\src\main\AndroidManifest.xml:21:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\fit\app\src\main\AndroidManifest.xml:23:17-77
+34-->C:\fit\app\src\main\AndroidManifest.xml:23:27-74
+35            </intent-filter>
+36        </activity>
+37    </application>
+38
+39</manifest>
