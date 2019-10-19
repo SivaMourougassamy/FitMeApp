@@ -3,10 +3,15 @@
 
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">Welcome to\nFITME</string>
+
     <string name="useractivity_button1">Phillip</string>
     <string name="useractivity_button2">Jimmy</string>
     <string name="useractivity_button3">Sam</string>
     <string name="useractivity_button4">Benson</string>
     <string name="useractivity_button5">Josue</string>
     <string name="useractivity_button6">Siva</string>
+
+    <string name="loginactivity_button1">New User</string>
+    <string name="loginactivity_button2">Log In</string>
+    <string name="loginactivity_text1">Have an account?</string>
 </resources>
