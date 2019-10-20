@@ -11,7 +11,4 @@
     <string name="useractivity_button5">Josue</string>
     <string name="useractivity_button6">Siva</string>
 
-    <string name="loginactivity_button1">New User</string>
-    <string name="loginactivity_button2">Log In</string>
-    <string name="loginactivity_text1">Have an account?</string>
 </resources>

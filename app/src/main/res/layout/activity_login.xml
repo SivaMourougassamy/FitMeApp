@@ -19,14 +19,14 @@
         android:id="@+id/button1"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:text="@string/loginactivity_button1"
+        android:text="New User"
         android:textSize="25sp"/>
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/loginactivity_text1"
+            android:text="Have an account?"
             android:textAlignment="center"
             android:textSize="20sp"
             android:paddingTop="100dp"
@@ -36,7 +36,7 @@
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:text="@string/loginactivity_button2"
+            android:text="Load User"
             android:textSize="25sp"
             />
     </LinearLayout>

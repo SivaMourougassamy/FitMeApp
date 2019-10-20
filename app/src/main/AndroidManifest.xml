@@ -12,6 +12,7 @@
         android:theme="@style/AppTheme">
         <activity android:name=".ProfileActivity"></activity>
         <activity android:name=".foodActivity" />
+
         <activity
             android:name=".FullscreenActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
@@ -23,6 +24,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
     </application>
 
     <dist:module dist:instant="true" />
