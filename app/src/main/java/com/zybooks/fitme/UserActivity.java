@@ -1,4 +1,4 @@
-package com.example.fitmeapp;
+package com.zybooks.fitme;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -96,3 +96,4 @@ public class UserActivity extends AppCompatActivity {
         startActivity(intent);
     }
 }
+

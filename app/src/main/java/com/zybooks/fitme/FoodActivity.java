@@ -1,10 +1,10 @@
-package com.example.fitmeapp;
+package com.zybooks.fitme;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class foodActivity extends AppCompatActivity {
+public class FoodActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

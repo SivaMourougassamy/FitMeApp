@@ -1,8 +1,5 @@
 <resources>
-    <string name="app_name">Fit Me App</string>
-
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">Welcome to\nFITME</string>
+    <string name="app_name">FitMe</string>
 
     <string name="useractivity_button1">Phillip</string>
     <string name="useractivity_button2">Jimmy</string>

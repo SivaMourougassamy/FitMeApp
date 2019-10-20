@@ -1,4 +1,4 @@
-package com.example.fitmeapp;
+package com.zybooks.fitme;
 
 import androidx.appcompat.app.AppCompatActivity;
 
