@@ -1,65 +1,59 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    xmlns:dist="http://schemas.android.com/apk/distribution"
-4    package="com.example.fitmeapp"
-5    android:versionCode="1"
-6    android:versionName="1.0" >
-7
-8    <uses-sdk
-9        android:minSdkVersion="15"
+3    package="com.example.fitmeapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\fit\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
 9-->C:\fit\app\src\main\AndroidManifest.xml
-10        android:targetSdkVersion="28" />
-10-->C:\fit\app\src\main\AndroidManifest.xml
-11
-12    <dist:module dist:instant="true" />
-12-->C:\fit\app\src\main\AndroidManifest.xml:28:5-40
-12-->C:\fit\app\src\main\AndroidManifest.xml:28:18-37
-13
-14    <application
-14-->C:\fit\app\src\main\AndroidManifest.xml:6:5-26:19
-15        android:allowBackup="true"
-15-->C:\fit\app\src\main\AndroidManifest.xml:7:9-35
-16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-16-->[androidx.core:core:1.0.1] C:\Users\Fluff\.gradle\caches\transforms-2\files-2.1\46da25c3e2ae6308b2227b660caa604d\core-1.0.1\AndroidManifest.xml:22:18-86
-17        android:debuggable="true"
-18        android:icon="@mipmap/ic_launcher"
-18-->C:\fit\app\src\main\AndroidManifest.xml:8:9-43
-19        android:label="@string/app_name"
-19-->C:\fit\app\src\main\AndroidManifest.xml:9:9-41
-20        android:roundIcon="@mipmap/ic_launcher_round"
-20-->C:\fit\app\src\main\AndroidManifest.xml:10:9-54
-21        android:supportsRtl="true"
-21-->C:\fit\app\src\main\AndroidManifest.xml:11:9-35
-22        android:testOnly="true"
-23        android:theme="@style/AppTheme" >
-23-->C:\fit\app\src\main\AndroidManifest.xml:12:9-40
-24        <activity android:name="com.example.fitmeapp.ProfileActivity" />
-24-->C:\fit\app\src\main\AndroidManifest.xml:13:9-62
-24-->C:\fit\app\src\main\AndroidManifest.xml:13:19-50
-25        <activity android:name="com.example.fitmeapp.foodActivity" />
-25-->C:\fit\app\src\main\AndroidManifest.xml:14:9-50
-25-->C:\fit\app\src\main\AndroidManifest.xml:14:19-47
-26        <activity
-26-->C:\fit\app\src\main\AndroidManifest.xml:15:9-25:20
-27            android:name="com.example.fitmeapp.FullscreenActivity"
-27-->C:\fit\app\src\main\AndroidManifest.xml:16:13-47
-28            android:configChanges="orientation|keyboardHidden|screenSize"
-28-->C:\fit\app\src\main\AndroidManifest.xml:17:13-74
-29            android:label="@string/app_name"
-29-->C:\fit\app\src\main\AndroidManifest.xml:18:13-45
-30            android:theme="@style/FullscreenTheme" >
-30-->C:\fit\app\src\main\AndroidManifest.xml:19:13-51
-31            <intent-filter>
-31-->C:\fit\app\src\main\AndroidManifest.xml:20:13-24:29
-32                <action android:name="android.intent.action.MAIN" />
-32-->C:\fit\app\src\main\AndroidManifest.xml:21:17-69
-32-->C:\fit\app\src\main\AndroidManifest.xml:21:25-66
+10
+11    <application
+11-->C:\fit\app\src\main\AndroidManifest.xml:5:5-23:19
+12        android:allowBackup="true"
+12-->C:\fit\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.0.1] C:\Users\Fluff\.gradle\caches\transforms-2\files-2.1\46da25c3e2ae6308b2227b660caa604d\core-1.0.1\AndroidManifest.xml:22:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\fit\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->C:\fit\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\fit\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\fit\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->C:\fit\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity android:name="com.zybooks.fitme.FoodActivity" />
+21-->C:\fit\app\src\main\AndroidManifest.xml:12:9-59
+21-->C:\fit\app\src\main\AndroidManifest.xml:12:19-47
+22        <activity android:name="com.zybooks.fitme.ProfileActivity" />
+22-->C:\fit\app\src\main\AndroidManifest.xml:13:9-53
+22-->C:\fit\app\src\main\AndroidManifest.xml:13:19-50
+23        <activity android:name="com.zybooks.fitme.UserActivity" />
+23-->C:\fit\app\src\main\AndroidManifest.xml:14:9-50
+23-->C:\fit\app\src\main\AndroidManifest.xml:14:19-47
+24        <activity android:name="com.zybooks.fitme.LoginActivity" />
+24-->C:\fit\app\src\main\AndroidManifest.xml:15:9-51
+24-->C:\fit\app\src\main\AndroidManifest.xml:15:19-48
+25        <activity android:name="com.zybooks.fitme.MainActivity" >
+25-->C:\fit\app\src\main\AndroidManifest.xml:16:9-22:20
+25-->C:\fit\app\src\main\AndroidManifest.xml:16:19-47
+26            <intent-filter>
+26-->C:\fit\app\src\main\AndroidManifest.xml:17:13-21:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->C:\fit\app\src\main\AndroidManifest.xml:18:17-69
+27-->C:\fit\app\src\main\AndroidManifest.xml:18:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->C:\fit\app\src\main\AndroidManifest.xml:20:17-77
+29-->C:\fit\app\src\main\AndroidManifest.xml:20:27-74
+30            </intent-filter>
+31        </activity>
+32    </application>
 33
-34                <category android:name="android.intent.category.LAUNCHER" />
-34-->C:\fit\app\src\main\AndroidManifest.xml:23:17-77
-34-->C:\fit\app\src\main\AndroidManifest.xml:23:27-74
-35            </intent-filter>
-36        </activity>
-37    </application>
-38
-39</manifest>
+34</manifest>
