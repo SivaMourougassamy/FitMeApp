@@ -12,8 +12,7 @@
         android:paddingTop="80dp"
         android:paddingLeft="40dp"
         android:paddingRight="40dp"
-        android:orientation="vertical"
-        >
+        android:orientation="vertical">
 
         <Button
             android:id="@+id/button1"
@@ -37,8 +36,7 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:text="Load User"
-            android:textSize="25sp"
-            />
+            android:textSize="25sp"/>
     </LinearLayout>
 
 
